@@ -126,6 +126,18 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <div style={{ textAlign: "center" }}>
+        <hr
+          style={{
+            width: 1800,
+            border: "none",
+            height: "2px",
+            backgroundColor: "#000",
+            margin: "0 auto",
+          }}
+        />
+        <p>CopyRight @ 2024 Hao Wang</p>
+      </div>
     </footer>
   );
 }
