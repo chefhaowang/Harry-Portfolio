@@ -15,9 +15,10 @@ export default function HeroSection() {
           </p>
         </div>
         <button className="btn btn-primary">Download CV</button>
+        <button className="btn btn-primary-2">Contact Me</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/hero_img.JPEG" alt="Hero Section" />
       </div>
     </section>
   );

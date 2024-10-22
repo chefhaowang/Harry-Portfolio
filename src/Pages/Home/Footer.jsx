@@ -43,19 +43,6 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
-                className="text-md"
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
                 to="Contact"
                 className="text-md"
               >
@@ -126,18 +113,18 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div style={{ textAlign: "center" }}>
+      {/* <div style={{ textAlign: "center" }}>
         <hr
           style={{
             width: 1800,
             border: "none",
             height: "2px",
             backgroundColor: "#000",
-            margin: "0 auto",
+            margin: "10 auto",
           }}
         />
         <p>CopyRight @ 2024 Hao Wang</p>
-      </div>
+      </div> */}
     </footer>
   );
 }
